@@ -16,4 +16,11 @@ function renderOneQuote(quote) {
 
             
     `
+  
+    //event listener on delete button
+    card.querySelector('#deleteBTN').addEventListener('click', () => {
+        card.remove()
+        deleteQuote(quote.id)
+    })
+
 }
