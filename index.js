@@ -48,6 +48,22 @@ function getAllQuotes() {
     .then(quotes => quotes.forEach(quote => renderOneQuote(quote)))
 }
 
+//fetch POST request
+//add a quote on the quote resources
+function newQuote(quoteObj) {
+    fetch('http://localhost:3000/quotes', {
+        method: 'POST',
+        headers : {
+            'Content-Type':'application/json'
+        },
+        body: JSON.stringify(quoteObj)
+    })
+    .then(res => res.json())
+    .then(quote => newQuote(quote))
+}
+
+
+
 //Initial Render
 //get data and render our quotes to the DOM
 
