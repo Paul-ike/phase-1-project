@@ -63,6 +63,18 @@ function newQuote(quoteObj) {
 }
 
 
+//fetch DELETE request
+//delete a quote on the quote resources
+function deleteQuote(id) {
+    fetch(`http://localhost:3000/quotes/${id}`, {
+        method: 'DELETE',
+        headers : {
+            'Content-Type':'application/json'
+        }
+    })
+    .then(res => res.json())
+    .then(quote => console.log(quote))
+}
 
 //Initial Render
 //get data and render our quotes to the DOM
