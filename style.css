@@ -35,3 +35,34 @@ body{
     color: rgb(12, 131, 250);
 }
 
+/* side by side div */
+
+#div
+{
+    display: flex;
+    align-items: center;
+    background-color: #52c3c3;
+    padding-bottom: 3%;
+    padding-top: 5%;
+}
+
+#imgNform
+{
+    width: 50%;
+}
+
+/* form */
+
+#imgNform #form
+{
+    text-align: center;
+    background-color: #52c3c3;
+    width: 500px;
+}
+
+#imgNform #form label
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.3rem
+}
+
