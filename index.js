@@ -27,6 +27,11 @@ function renderOneQuote(quote) {
     document.getElementById('list').appendChild(card)
 }
 
+//event listener on the form
+document.getElementById('form-details').addEventListener('submit', handleSubmit)
+
+
+
 //fetch requests
 //get fetch for all quotes resources
 function getAllQuotes() {
