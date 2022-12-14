@@ -66,3 +66,21 @@ body{
     font-size: 1.3rem
 }
 
+/* features */
+
+#features
+{
+    background-color: #52c3c3;
+    width: 50%;
+    text-align: center;
+}
+#features h3
+{
+    font-family: 'Rubik Gemstones', cursive;
+    font-size: 2rem;
+}
+#features #list
+{
+    list-style-type: none;
+    padding-left: 30%;
+}
