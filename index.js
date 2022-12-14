@@ -26,3 +26,12 @@ function renderOneQuote(quote) {
     //add quote to DOM
     document.getElementById('list').appendChild(card)
 }
+
+//fetch requests
+//get fetch for all quotes resources
+function getAllQuotes() {
+    fetch('http://localhost:3000/quotes/')
+    .then(response => response.json())
+    .then(quotes => quotes.forEach(quote => renderOneQuote(quote)))
+}
+
