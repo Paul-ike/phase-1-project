@@ -35,3 +35,10 @@ function getAllQuotes() {
     .then(quotes => quotes.forEach(quote => renderOneQuote(quote)))
 }
 
+//Initial Render
+//get data and render our quotes to the DOM
+
+function initialize() {
+    getAllQuotes();
+}
+initialize()
