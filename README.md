@@ -35,4 +35,5 @@ As a user should;
 Copyright 2021 Paul Wanyoike Ngugi Licensed under[MT License]('https://github.com/Paul-ike/phase-1-project/blob/main/LICENSE')
 
 
-![Screenshot]()
+![Screenshot](./images/1.png)
+![Screenshot](./images/2.png)
