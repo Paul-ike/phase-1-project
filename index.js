@@ -23,4 +23,6 @@ function renderOneQuote(quote) {
         deleteQuote(quote.id)
     })
 
+    //add quote to DOM
+    document.getElementById('list').appendChild(card)
 }
