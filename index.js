@@ -30,7 +30,15 @@ function renderOneQuote(quote) {
 //event listener on the form
 document.getElementById('form-details').addEventListener('submit', handleSubmit)
 
-
+//event handler on submit
+function handleSubmit(e) {
+    let quoteObj = {
+        text: e.target.quote.value,
+        author: e.target.author.value
+    }
+    renderOneQuote(quote)
+    newQuote(quoteObj)
+}
 
 //fetch requests
 //get fetch for all quotes resources
