@@ -19,7 +19,7 @@
 ##### project description
     -   Quote App is an app that allows a user to pick, create and delete quotes from the app.
 ##### BDD
-As a user should;
+    As a user should;
     -   See a list of some of the quotes they would use when the page loads.
     -   Should create a quote through a form.
     -   Delete a quote they have created.
