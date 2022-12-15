@@ -14,8 +14,8 @@
     ```console $ json-server --watch db.json```
     -   And the you are good to go.
 
-    #### Requirement
-    Json Server - 
+##### Requirement
+    -   Json Server
 ##### project description
     -   Quote App is an app that allows a user to pick, create and delete quotes from the app.
 ##### BDD
