@@ -1,3 +1,6 @@
+//event listener on the whole document
+document.addEventListener('DOMContentLoaded', () => {
+
 //DOM render functions
 function renderOneQuote(quote) {
     //build quote
@@ -83,3 +86,5 @@ function initialize() {
     getAllQuotes();
 }
 initialize()
+
+})
