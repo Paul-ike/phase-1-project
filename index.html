@@ -1,71 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quote App</title>
     <!-- css link -->
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <!-- google-font -->
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Rubik+Gemstones&display=swap"
+      rel="stylesheet"
+    />
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
-<body>
-
+  <body>
     <!-- navbar -->
 
     <div id="navbar" class="container-fluid">
-        <h2>💬 Quotes-App</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/Paul-ike/phase-1-project"><i class="fa-brands fa-github fa-2x"></i></a>
-          </li>
-        </ul>
-      </div>
+      <h2>💬 Quotes-App</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/Paul-ike/phase-1-project"
+            ><i class="fa-brands fa-github fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
 
-      <!-- side by side div -->
+    <!-- side by side div -->
 
     <div id="div" class="container-fluid">
-
       <!-- image -->
-      
+
       <div id="imgNform">
-        <img src="https://news.iium.edu.my/wp-content/uploads/2021/06/motivation_oct2019.jpg" alt="">
-        
+        <img
+          src="https://news.iium.edu.my/wp-content/uploads/2021/06/motivation_oct2019.jpg"
+          alt=""
+        />
+
         <!-- form -->
 
-  <div id="form" class="container-fluid">
-    <form id="form-details">
-      <div class="mb-3">
-        <label for="quote" class="form-label">Write a quote</label>
-        <input type="text" class="form-control" id="quote">
+        <div id="form" class="container-fluid">
+          <form id="form-details">
+            <div class="mb-3">
+              <label for="quote" class="form-label">Write a quote</label>
+              <input type="text" class="form-control" id="quote" />
+            </div>
+            <div class="mb-3">
+              <label for="author" class="form-label">Author of the quote</label>
+              <input type="text" class="form-control" id="author" />
+            </div>
+            <button id="submitBTN" type="submit" class="btn btn-primary">
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="author" class="form-label">Author of the quote</label>
-        <input type="text" class="form-control" id="author">
-      </div>
-      <button id="submitBTN" type="submit" class="btn btn-primary">Submit</button>
-    </form>
-  </div>
-      </div>
-      
 
-    <!-- feature -->
+      <!-- feature -->
 
-    <div id="features" class="container-fluid">
-      <h3>Mumble a Quote 😊</h3>
-        <ul id="list">
-          
-        </ul>
+      <div id="features" class="container-fluid">
+        <h3>Mumble a Quote 😊</h3>
+        <ul id="list"></ul>
+      </div>
     </div>
-  </div>
-  <div>
-    
-  </div>
-  
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
