@@ -14,6 +14,41 @@
       "id": 3,
       "text": "A house divided against itself cannot stand.",
       "author": "Abraham Lincoln"
+    },
+    {
+      "text": "We are all inclined to judge ourselves by our ideals; others, by their acts.",
+      "author": "Harold Nicolson",
+      "id": 4
+    },
+    {
+      "text": "Difficulties increase the nearer we get to the goal.",
+      "author": "Johann Wolfgang von Goethe",
+      "id": 5
+    },
+    {
+      "text": "Nothing is a waste of time if you use the experience wisely.",
+      "author": "Rodin",
+      "id": 6
+    },
+    {
+      "text": "Here is one quality that one must possess to win, and that is definiteness of purpose, the knowledge of what one wants, and a burning desire to possess it.",
+      "author": "Napoleon Hill",
+      "id": 7
+    },
+    {
+      "text": "Using the power of decision gives you the capacity to get past any excuse to change any and every part of your life in an instant.",
+      "author": "Tony Robbins",
+      "id": 8
+    },
+    {
+      "text": "I will prepare and some day my chance will come.",
+      "author": "Abraham Lincoln",
+      "id": 9
+    },
+    {
+      "text": "Sometimes the cards we are dealt are not always fair. However you must keep smiling and moving on.",
+      "author": "Tom Jackson",
+      "id": 10
     }
   ]
 }
