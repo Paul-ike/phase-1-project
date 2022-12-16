@@ -13,6 +13,13 @@
       "author": "Abraham Lincoln",
       "likes": 3,
       "dislikes": 1
+    },
+    {
+      "text": "Difficulties increase the nearer we get to the goal.",
+      "author": "Johann Wolfgang von Goethe",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 4
     }
   ]
 }
