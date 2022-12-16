@@ -31,6 +31,22 @@
     color: rgb(230, 107, 187);
 }
 
+/* random quote card */
+
+#randomCard
+{
+    background-color: #52c3c3;
+    padding-top: 10%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+#randomCard .card-header
+{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.3rem
+}
+
 /* side by side div */
 
 #div
@@ -39,7 +55,6 @@
     align-items: center;
     background-color: #52c3c3;
     padding-bottom: 3%;
-    padding-top: 5%;
 }
 
 #imgNform
@@ -79,4 +94,9 @@
 {
     list-style-type: none;
     padding-left: 30%;
+}
+
+#features i
+{
+    padding-left: 10%;
 }
