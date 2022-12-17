@@ -23,6 +23,9 @@
     -   See a list of some of the quotes they would use when the page loads.
     -   Should create a quote through a form.
     -   Delete a quote they have created.
+##### Live Link
+    The application is deployed in Github Page
+    Here is the link [JsonServer](paul-ike.github.io/phase-1-project/)
 ##### Known Bugs
     The application works perfectly well, no bugs.
 #### technologies used
