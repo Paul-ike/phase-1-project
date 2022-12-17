@@ -38,7 +38,7 @@ function renderOneQuote(quote) {
     //build quote
     let card = document.createElement('li')
     card.innerHTML = `
-    <div class="card" style="width: 30rem;">
+    <div class="card" style="width: 100%;">
               <div class="card-body">
                 <blockquote class="blockquote mb-0">
                     <p>${quote.text}</p>

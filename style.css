@@ -36,8 +36,7 @@
 #randomCard
 {
     background-color: #52c3c3;
-    padding-top: 10%;
-    padding-left: 5%;
+    padding: 7%;
     text-align: center;
 }
 
@@ -51,15 +50,17 @@
 
 #div
 {
-    display: flex;
-    align-items: center;
     background-color: #52c3c3;
     padding-bottom: 3%;
 }
 
 #imgNform
 {
-    width: 50%;
+    text-align: center;
+}
+#imgNform img
+{
+    width: 100%;
 }
 
 /* form */
@@ -68,7 +69,7 @@
 {
     text-align: center;
     background-color: #52c3c3;
-    width: 500px;
+    padding-bottom: 5%;
 }
 
 #imgNform #form label
@@ -82,7 +83,6 @@
 #features
 {
     background-color: #52c3c3;
-    width: 50%;
     text-align: center;
 }
 #features h3
@@ -93,7 +93,7 @@
 #features #list
 {
     list-style-type: none;
-    padding-left: 30%;
+    padding: 7%;
 }
 
 #features i

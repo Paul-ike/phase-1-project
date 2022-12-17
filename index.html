@@ -38,12 +38,14 @@
     <!-- random quote card -->
 
     <div id="randomCard">
-      <div class="card" style="width: 40rem;">
+      <div class="card" style="width: 30rem">
         <div class="card-header">Generate Quotes</div>
         <div class="card-body">
           <h5 id="q" class="card-title"></h5>
-          <br>
-          <footer id="a" class="blockquote-footer">Quoted by <cite title="Source Title"></cite></footer>
+          <br />
+          <footer id="a" class="blockquote-footer">
+            Quoted by <cite title="Source Title"></cite>
+          </footer>
           <button id="getBTN" class="btn btn-primary">Get Quote</button>
         </div>
       </div>
@@ -53,37 +55,40 @@
 
     <div id="div" class="container-fluid">
       <!-- image -->
+      <div class="row">
+        <div id="imgNform" class="col-lg-6">
+          <img
+            src="https://news.iium.edu.my/wp-content/uploads/2021/06/motivation_oct2019.jpg"
+            alt=""
+          />
 
-      <div id="imgNform">
-        <img
-          src="https://news.iium.edu.my/wp-content/uploads/2021/06/motivation_oct2019.jpg"
-          alt=""
-        />
+          <!-- form -->
 
-        <!-- form -->
-
-        <div id="form" class="container-fluid">
-          <form id="form-details">
-            <div class="mb-3">
-              <label for="quote" class="form-label">Write a quote</label>
-              <input type="text" class="form-control" id="quote" />
-            </div>
-            <div class="mb-3">
-              <label for="author" class="form-label">Author of the quote</label>
-              <input type="text" class="form-control" id="author" />
-            </div>
-            <button id="submitBTN" type="submit" class="btn btn-primary">
-              Submit
-            </button>
-          </form>
+          <div id="form" class="container-fluid">
+            <form id="form-details">
+              <div class="mb-3">
+                <label for="quote" class="form-label">Write a quote</label>
+                <input type="text" class="form-control" id="quote" />
+              </div>
+              <div class="mb-3">
+                <label for="author" class="form-label"
+                  >Author of the quote</label
+                >
+                <input type="text" class="form-control" id="author" />
+              </div>
+              <button id="submitBTN" type="submit" class="btn btn-primary">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
-      </div>
 
-      <!-- feature -->
+        <!-- feature -->
 
-      <div id="features" class="container-fluid">
-        <h3>Mumble a Quote 😊</h3>
-        <ul id="list"></ul>
+        <div id="features" class="container-fluid col-lg-6">
+          <h3>Mumble a Quote 😊</h3>
+          <ul id="list"></ul>
+        </div>
       </div>
     </div>
     <script src="./index.js"></script>
