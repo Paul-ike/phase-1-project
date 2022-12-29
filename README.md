@@ -1,5 +1,5 @@
 ### PHASE 1 PROJECT
-#### Projects name
+#### Project name
     -   Quote App
 #### author information
     The following projects are created by:
